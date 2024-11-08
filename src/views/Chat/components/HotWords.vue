@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from "vue"
-const words = ref(['卫星', '人工智能', '自动驾驶', '智能语音', '大数据'])
+const words = ref(['交通规划', '桥梁工程', '道路施工', '隧道建设', '交通监控',])
 </script>
 <template>
  <div class="text-gray-700 text-xs lg:text-sm">

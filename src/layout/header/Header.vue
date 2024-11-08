@@ -22,7 +22,8 @@ const logout = async () => {
   <header
     class="h-[60px] relative flex flex-wrap items-center justify-between text-center bg-[url('../src/assets/header.jpg')]"
   >
-    <img src="../../assets/image/title.png" alt="" class="mx-auto h-[30px]" />
+    <!-- <img src="../../assets/image/title.png" alt="" class="mx-auto h-[30px]" /> -->
+    <p class="mx-auto h-[30px] title">山西交通建设监理咨询集团</p>
     <!-- <button
       class="md:hidden block absolute top-5 left-4"
       @click="isHistoryOpen = true"
@@ -47,3 +48,12 @@ const logout = async () => {
   </header>
   <History v-model="isHistoryOpen" />
 </template>
+<style scoped>
+.title{
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  font-family: KaiTi;
+
+}
+</style>

@@ -18,7 +18,7 @@ const status = ref<"login" | "register">("login");
     <div class="h-full w-1/2 flex items-center justify-center bg-white rounded-l-[40px]">
       <div 
         class="flex flex-col items-center h-[450px] w-3/5 justify-between">
-        <img src="../../assets/login_title.png" class="w-full mb-8">
+        <img src="../../assets/图片1.png" class="w-full mb-8">
         <Login 
           v-if="status === 'login'" 
           v-model:status="status" />

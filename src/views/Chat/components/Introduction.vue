@@ -25,22 +25,22 @@ const sendQuestion = (question: string) => {
         class="bg-gradient-to-r from-[#1e3b8ae0] to-[#0285c7e0] w-full h-full text-white flex flex-col justify-between p-6"
       >
         <h2 class="text-xl font-normal tracking-wide">
-          Hi,我是您的小卫星智能助手，我可以回答任何小卫星相关的问题。
+          Hi,我是您的交通建设监理智能助手，我可以回答任何交通建设监理相关的问题。
         </h2>
         <ul class="text-sm ml-4">
-          <li class="list-disc py-4">有关小卫星的介绍有哪些？</li>
-          <li class="list-disc py-4">小卫星的种类是哪些？</li>
-          <li class="list-disc py-4">如何针对小卫星的运行轨迹进行测算？</li>
+          <li class="list-disc py-4">有关交通建设监理的介绍有哪些？</li>
+          <li class="list-disc py-4">交通建设监理人员的基本要求？</li>
+          <li class="list-disc py-4">交通建设监理人员的岗位职责？</li>
         </ul>
         <div class="pt-4 text-xs">
           <button class="px-3 py-2 rounded-xl mr-4 border border-white">
-            小卫星查询
+            交通建设监理查询
           </button>
           <button class="px-3 py-2 rounded-xl mr-4 border border-white">
-            小卫星智能分析
+            交通工程质量监控
           </button>
           <button class="px-3 py-2 rounded-xl mr-4 border border-white">
-            常用报告撰写
+            交通法规与标准咨询
           </button>
         </div>
       </div>

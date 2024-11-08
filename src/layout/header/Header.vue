@@ -23,7 +23,7 @@ const logout = async () => {
     class="h-[60px] relative flex flex-wrap items-center justify-between text-center bg-[url('../src/assets/header.jpg')]"
   >
     <!-- <img src="../../assets/image/title.png" alt="" class="mx-auto h-[30px]" /> -->
-    <p class="mx-auto h-[30px] title">山西交通建设监理咨询集团</p>
+    <p class="mx-auto h-[30px] title">交通建设监理大模型</p>
     <!-- <button
       class="md:hidden block absolute top-5 left-4"
       @click="isHistoryOpen = true"
